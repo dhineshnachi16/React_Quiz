@@ -40,6 +40,10 @@ button:hover{
     font-size: 30px;
     text-align: center;
 }
-
-
+@media(max-width:900px){
+  .container{
+    margin-top: 10vh;
+    width: 85%;
+  }
+}
   
