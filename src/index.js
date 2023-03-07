@@ -2,9 +2,6 @@ import React from 'react';
 import {useState} from 'react'
 import ReactDOM from 'react-dom/client';
 import './indexq.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
-import { render } from '@testing-library/react';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
@@ -12,7 +9,6 @@ function Quiz(){
     const[crQues,setQues]=useState(0);
     const[score,setScore]=useState(0);
     const[disQue,disScore]=useState(true)
-console.log(QUESTION);
     const vals=
           [
             {qu:'Which ground is home of cricket?',
